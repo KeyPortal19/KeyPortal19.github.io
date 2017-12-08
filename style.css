@@ -50,6 +50,13 @@ body {
 }
 
 /* Roast types */
+.dream{
+  font: inherit;
+  padding: 0 20px;
+  color: #FFFFFF;
+  overflow: auto;
+  opacity: 0.9;
+}
 .vienna{
   font: inherit;
   padding: 0 20px;
@@ -83,7 +90,12 @@ body {
 .italian {
   background-color: #082E41;
 }
-
+.dream{
+  background-color: rgb(56, 153, 80)
+}
+.boots{
+  background-color: rgb(240, 68, 142)
+}
 /* Typography */
 h1 {
   color: #2d84af;
@@ -117,7 +129,7 @@ h4 {
   font-family: 'Graduate';
   font-size: 20px;
   font-weight: 700;
-  line-height: .2em;
+  line-height: 2em;
 }
 
 h5 {
@@ -125,6 +137,12 @@ h5 {
   font-size: 20px;
   line-height: .2em;
   font-weight: 300;
+}
+h6 {
+  font-family: 'Graduate';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: .2em;
 }
 
 /* Page elements */
